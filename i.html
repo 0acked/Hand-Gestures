@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <script src="m.js"></script>
+    <link rel="stylesheet" href="s.css">
+    </head>
+    <body>
+        <div id="header-div">
+            <h2 style="text-align:center" id="heading">Hand Gesture app!
+                <br>
+                <i>&#9757;</i>
+                <i>&#9994;</i>
+                <i>&#9996;</i>
+                <i>&#9995;</i>
+                <i>&#128076;</i>
+                <i>&#128077;</i>
+                <i>&#128078;</i>
+                <i>&#129304;</i></h2>
+            </div>
+            <br><br><br>
+            <div id="mama">
+                <div id="1st-child">
+                    <div id="camera">
+                    </div>
+                    <button onclick="takeSnap()" class="btn btn-warning buttons">Take Picture</button>
+                </div>
+                <div id="2nd-child">
+                    <p>Prediction-</p>
+                </div>
+                <div id="3rd-child">
+                    <div id="result">
+                        <button onclick="takePred()" class="btn btn-success buttons">Take Prediction</button>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
